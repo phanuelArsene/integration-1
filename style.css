@@ -1,0 +1,415 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+}
+.header{
+    width: 100%;
+
+}
+.menu,.sidBar{
+        margin: 16px;
+        height: 50px;
+        max-width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+   height: 50px;
+   width: 51px;  
+}
+.bar{
+    height: 16px;
+    width: 12px;  
+ }
+/* 
+FIN DU HEADER NUM 1
+*/
+ .title h2{
+ position: relative;
+ font-size: 55px;
+}
+.title{
+    position: relative;
+}
+.box-text .title::after{
+    content: "";
+    position: absolute;
+    width: 6%;
+    height: 2px;
+    background-color: #E95841;
+    border-radius: 50%;
+    bottom: -9px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.box-text {
+   width: 50%;
+}
+.title .ah2{
+    font-weight: bold;
+}
+.title .bh2{
+    font-weight: lighter;
+}
+.smalText{
+    position: relative;
+    bottom: 7px;
+}
+.p1{
+    line-height: 60px;
+}
+
+.allbutton button{
+margin-top: 32px;
+}
+.allbutton button{
+    transition: 1s;
+
+    border: none;
+    border-radius: 50px;
+    width: 168px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px;
+    box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+    -webkit-box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+    -moz-box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+}
+.btn1{
+    background-color: #E95841;
+    color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color:  #E95841; 
+}
+.btn2:hover{
+    background-color: #E95841;
+    color: white;
+}
+
+.btn2{
+    background-color: white;
+    color:  #E95841;
+}
+ /* FIN DU HEADER NUM 1
+ }
+
+*/
+.flex{
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social{
+    position: relative;
+    bottom: 60px;
+}
+.social img {
+   margin: 5px;
+}
+/*
+FIN DU HEADER NUM 3
+*/
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 5px;
+}
+.box2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.top-title{
+    font-size: 16px;
+    color:#E95841 ;
+}
+
+
+.imgBox{
+    width: 600px;
+    padding-left: 100px;  
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.imgBoxR{
+    width: 600px;
+    height: 500px;
+    padding-right: 100px;  
+    display: flex;
+    align-items: center;
+}
+
+.imgBox img,.imgBoxR img{
+  width: 100%;
+}
+/*
+FIN DUDE LA PARTIE COMPETENCE
+*/
+p{
+    transition: 1s;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
+.box-small-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.smal-card{
+    width: 352px;
+    box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+    -webkit-box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+    -moz-box-shadow: 5px 10px 19px -3px rgba(118,112,112,0.75);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 16px;
+    display: flex;
+    transition: 1s;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+.smal-card:hover{
+   
+ color: white;
+ background-color: rgb(51, 51, 51);
+}
+.smal-card:hover p{
+   
+    color: white;
+   }
+.card-title{
+    margin-bottom: 40px;
+}
+.smal-card h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.smal-card .num{
+    color: #E95841;
+}
+.smal-card p{
+   margin-top: 10px;
+   line-height: 30px;
+   font-size: 14px;
+   margin-left: 30px;
+   margin-top: 23px;
+   color: #333333;
+}
+
+
+.contact{
+    margin-top: 135px;
+}
+.contact .title{
+    font-size: 55px;
+}
+.contact .top-title{
+   position: relative;
+   top: 20px;
+   font-size: 16px;
+   font-weight: bold;
+}
+.contact .body{
+    width: 100%;
+} 
+
+.contact .cont-title-small{
+    font-size: 38px;
+}
+.contact .social{
+    position: relative;
+    bottom: 0;
+}
+.rows{
+    width: 100%;
+}
+label{
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 23px;
+}
+.down{
+    position: relative;
+    top: 46px;
+    left: 40px;
+}
+.select{
+    position: relative;
+}
+
+
+footer{
+    margin-top: 91px;
+    font-size: 38px;
+    background-color: white;
+    padding: 40px 0px;
+}
+footer .container{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.footer{
+    display: flex;
+ }
+.footer .img{
+    width: 76px;
+    height: 75px;
+    position: relative;
+    top: 8px;
+ }
+ .footer .img img{
+  width: 100%;
+ }
+footer h2{
+    font-size: 38px;
+}
+footer p{
+    font-size: 14px;
+}
+footer .social{
+    position: relative;
+    bottom: 0px;
+    top: 30px;
+}
+
+/*
+RESPONSIVE CSS
+*/
+
+
+
+@media only screen and (max-width: 1200px) {
+    .title h2 {
+        position: relative;
+        font-size: 40px;
+    }
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      /* flex-direction: row-reverse;*/
+    }
+    .boxProfil {
+        width: 400px;
+    padding-left:0px;  
+
+    }
+    .boxProfil .imgP {
+        width:100%;
+        
+    }
+
+
+    
+.imgBox{
+    width: 400px;
+    padding-left: 50px;  
+    height: 400px;
+
+}
+.imgBoxR{
+    width: 400px;
+    height: 400px;
+
+}
+
+.imgBox img,.imgBoxR img{
+  width: 100%;
+}
+  }
+  
+
+  @media only screen and (max-width: 992px) {
+
+    .header .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    /* flex-direction: row-reverse;*/
+  }
+  .boxProfil {
+      width: 350px;
+      
+  }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* body{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    .header .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+  }
+  .box-text{
+      width: 100%;
+      margin: 30px 0px;
+  }
+  .boxProfil {
+      width: 100%;
+      
+  }
+
+  
+.imgBox{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+.imgBoxR{
+    width: 100%;
+    padding: 0px;
+    
+}
+
+
+.imgBox img,.imgBoxR img{
+  width: 100%;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}
